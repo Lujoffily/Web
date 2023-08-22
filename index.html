@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Soccer Team </title>
 </head>
 
@@ -28,19 +28,15 @@
         <section id="Contact">
             <h3 class="Center">Contact Me</h3>
             <form>
-                <ul>
-                    <li>
+                    <fieldset id="box-1">
                         <label for="name">Name:</label>
                         <input type="text" id="name" name="name" autocomplete="given-name">
-                    </li>
-                    <li>
+                    </fieldset>
+                    <fieldset id="box-2">
                         <label for="email">Email:</label>
-                        <input type="text" id="email" name="email" autocomplete="given-email">
-                    </li>
-                </ul>
-                <section class="Center">
-                    <button type="submit">SEND</button>
-                </section>
+                        <input type="text" id="email" name="email" autocomplete="given-email" class="email">
+                    </fieldset>
+                        <button class="btn" type="submit">SEND</button>
             </form>
         </section>
     </main>
@@ -50,4 +46,4 @@
     </footer>
 
 </body>
-</html>
+</htm
